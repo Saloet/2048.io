@@ -56,7 +56,7 @@ function handleInput (event) {
     
     if (!canMoveUp() && !canMoveDown() && !canMoveLeft() && !canMoveRight()) {
         if (confirm("Try again. Do you want to reload the page?")) {
-            setTimeout(() => window.location.reload(), 500);
+            setTimeout(() => window.location.reload(), 100);
         }
     }
     
